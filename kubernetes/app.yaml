@@ -21,7 +21,7 @@ spec:
         app: cime-app
     spec:
       containers:
-        - image: gcr.io/upenn-chime/github.com/pjimanov/chime
+        - image: gcr.io/u-penn-chime/github.com/pjimanov/chime
           imagePullPolicy: IfNotPresent
           name: chime-sha256-1
 ---
